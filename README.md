@@ -1,6 +1,7 @@
 ## TIC TAC TOE
 
-###Install Dependencies
+## Install Dependencies:
+
 `npm install`
 
 ## Start:
