@@ -1,15 +1,11 @@
 import React from "react";
-import { Button, Table } from "semantic-ui-react";
+import { Header } from "semantic-ui-react";
 
 const Square = props => {
   return (
-    <Table.Cell textAlign="center">
-      <div>
-        <Button onClick={props.onClick} icon>
-          {props.value}
-        </Button>
-      </div>
-    </Table.Cell>
+    <td align="center" style={props.style} onClick={props.onClick}>
+      <Header>{props.value}</Header>
+    </td>
   );
 };
 
